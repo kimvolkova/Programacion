@@ -1,0 +1,70 @@
+body {
+    font-family: "Comic Sans MS", cursive;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+
+.contenedor {
+    display: flex;
+    align-items: flex-start;
+}
+
+.profile {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px; 
+    margin-right: 20px; 
+}
+
+.profile img {
+    display: block; 
+}
+
+blockquote {
+    background-color: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+marquee {
+    background-color: #f8f8f8;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#imagen {
+border-radius: 20px;
+display: block;
+}
